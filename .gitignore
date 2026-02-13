@@ -47,3 +47,5 @@ node_modules/
 target/
 package-lock.json
 src/playwright/.auth/*
+allure-results/
+allure-report/
