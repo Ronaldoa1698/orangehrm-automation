@@ -1,1 +1,1 @@
-[]
+[{"uid":"53a563562d7a20f0","name":"Verificar que el usuario puede iniciar sesión con credenciales válidas","time":{"start":1770960635934,"stop":1770960640946,"duration":5012},"status":"passed","severity":"normal"},{"uid":"b3c5e4e7c828c6a3","name":"Verificar que el usuario puede iniciar sesión con credenciales válidas","time":{"start":1770960629855,"stop":1770960633377,"duration":3522},"status":"passed","severity":"normal"}]
