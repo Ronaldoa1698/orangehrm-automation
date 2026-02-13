@@ -23,6 +23,7 @@ export default defineConfig({
 	workers: process.env.CI ? 1 : undefined,
 	reporter: [
 		cucumberReporter('json', { outputFile: './target/cucumber-reports/cucumber.json' }),
+		['allure-playwright'],
 		[process.env.CI ? 'github' : 'list'],
 		['html', { outputFolder: './target/playwright-reports' }]
 	],
