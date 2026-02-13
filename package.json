@@ -1,0 +1,23 @@
+{
+    "name": "orangehrm-automation",
+    "version": "2.0.1",
+    "author": {
+        "name": "Ronaldo Delgado Jara",
+        "email": "ronaldoa1698@gmail.com"
+    },
+    "license": "ISC",
+    "main": "index.js",
+    "scripts": {
+        "build": "bddgen",
+        "test": "bddgen && npx playwright test",
+        "upload": "tsx ./src/playwright/util/uploader.ts"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.49.1",
+        "@types/node": "^22.13.9",
+        "date-fns": "^4.1.0",
+        "dotenv": "^16.4.7",
+        "playwright-bdd": "^8.1.0",
+        "tsx": "^4.19.3"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "newUser": {
+        "userRole": "Admin",
+        "employeeName": "John",
+        "middleName": "A.",
+        "employeeLastName": "Doe",
+        "status": "Enabled",
+        "username": "HappyTesting",
+        "password": "HappyTesting123",
+        "confirmPassword": "HappyTesting123"
+    }
+}
+
