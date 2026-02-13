@@ -210,3 +210,12 @@ Notas importantes:
 - El input `test_tag` está definido como required en `.github/workflows/playwright-test.yml`. Si prefieres hacerlo opcional cambia `required: true` a `required: false`.
 - No se requieren credenciales locales para ejecutar Actions; los runners de GitHub se encargan de la ejecución.
 - Si el tag contiene espacios, cuida el quoting; para tags normales no suele ser necesario.
+
+## Dashboard Allure (GitHub Pages)
+
+Este proyecto genera un dashboard Allure automáticamente en cada ejecución del workflow **"Playwright Tests"**.
+
+### URL del Dashboard
+El reporte se publica en GitHub Pages (rama `gh-pages`) y queda disponible en:
+
+- https://ronaldoa1698.github.io/orangehrm-automation/
