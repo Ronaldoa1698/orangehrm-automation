@@ -179,7 +179,9 @@ npx playwright show-trace path/to/trace.zip
 ```
 
 Asegúrate de reemplazar path/to/trace.zip con la ruta real del archivo de trace que deseas compartir.
-```bash
+
+```
+```
 ## Ejecución vía GitHub Actions - "Playwright Tests"
 
 El workflow se llama "Playwright Tests" y está configurado con `workflow_dispatch`. El input principal es `test_tag` (required) y se utiliza para filtrar pruebas con Playwright (`--grep`).
@@ -210,3 +212,4 @@ Notas importantes:
 - El input `test_tag` está definido como required en `.github/workflows/playwright-test.yml`. Si prefieres hacerlo opcional cambia `required: true` a `required: false`.
 - No se requieren credenciales locales para ejecutar Actions; los runners de GitHub se encargan de la ejecución.
 - Si el tag contiene espacios, cuida el quoting; para tags normales no suele ser necesario.
+```
