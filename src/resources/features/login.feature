@@ -1,4 +1,4 @@
-@retoOka
+@retoSeek
 Feature: Verificar el acceso a la plataforma
 
     @loginSuccess

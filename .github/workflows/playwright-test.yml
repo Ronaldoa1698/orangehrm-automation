@@ -6,10 +6,10 @@ on:
       test_tag:
         description: 'Tag del escenario a ejecutar'
         required: true
-        default: '@retoOka'
+        default: '@retoSeek'
         type: choice
         options:
-          - '@retoOka'
+          - '@retoSeek'
           - '@loginSuccess'
           - '@loginFailure'
           - '@filterUserSuccess'
