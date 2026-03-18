@@ -1,4 +1,4 @@
-@retoSeek
+@testRegresion
 Feature: Verificar el acceso a la plataforma
 
     @loginSuccess
