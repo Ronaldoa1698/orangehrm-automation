@@ -1,4 +1,4 @@
-@retoSeek
+@testRegresion
 Feature: Filtrar usuarios por rol
 
     @filterUserSuccess
