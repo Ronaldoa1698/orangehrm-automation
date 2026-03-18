@@ -6,10 +6,10 @@ on:
       test_tag:
         description: 'Tag del escenario a ejecutar'
         required: true
-        default: '@testRegresion'
+        default: '@loginSuccess'
         type: choice
         options:
-          - '@retoSeek'
+          - '@testRegresion'
           - '@loginSuccess'
           - '@loginFailure'
           - '@filterUserSuccess'
