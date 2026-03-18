@@ -1,4 +1,4 @@
-@retoSeek
+@testRegresion
 Feature: Edicion de Usuario Existente
 
     @addUserAdmin
