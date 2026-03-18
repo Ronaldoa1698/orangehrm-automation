@@ -6,7 +6,7 @@ on:
       test_tag:
         description: 'Tag del escenario a ejecutar'
         required: true
-        default: '@retoSeek'
+        default: '@testRegresion'
         type: choice
         options:
           - '@retoSeek'
